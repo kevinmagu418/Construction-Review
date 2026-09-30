@@ -19,6 +19,7 @@ const sora = localFont({
 export const metadata: Metadata = {
   title: "ATTICSPACE Architects & Interior Designers | Construction Review",
   description: "Architecture, interiors and construction intelligence from Atticspace Architects & Interior Designers.",
+  icons: { icon: "/logo.jpeg", shortcut: "/logo.jpeg", apple: "/logo.jpeg" },
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {

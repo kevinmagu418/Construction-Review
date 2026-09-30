@@ -27,3 +27,4 @@ a:focus-visible,button:focus-visible,input:focus-visible{outline:2px solid var(-
 .header-main{height:112px}.site-header .brand-logo-image{width:112px;height:96px}
 @media(max-width:800px){.header-main{height:76px}.site-header .brand-logo-image{width:72px;height:60px}}
 @media(max-width:560px){.site-header .brand-logo-image{width:66px;height:55px}}
+.site-header .brand,.footer .brand{background:transparent;padding:0}

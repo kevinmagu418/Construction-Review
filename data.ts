@@ -33,17 +33,15 @@ export const projects: Project[] = [
 ];
 
 export const categories: IndustryCategory[] = [
-  { title: "Buildings", description: "Architecture, design and the spaces we inhabit.", image: images.building, href: "/news?category=architecture" },
-  { title: "Infrastructure", description: "The systems that connect economies and communities.", image: images.bridge, href: "/projects" },
-  { title: "Energy", description: "Powering a more resilient built environment.", image: images.energy, href: "/news?category=energy" },
-  { title: "Materials", description: "Products and systems shaping how we build.", image: images.materials, href: "/materials" },
-  { title: "Machinery", description: "Equipment, capability and the modern jobsite.", image: images.road, href: "/news?category=machinery" },
-  { title: "Technology", description: "Ideas changing how projects are designed and delivered.", image: images.tower, href: "/know-how" },
+  { title: "Buildings & Infrastructure", description: "Architecture, design and the systems that connect communities.", image: images.building, href: "/buildings-infrastructure" },
+  { title: "Materials", description: "Products and systems shaping how we build.", image: images.materials, href: "/news" },
+  { title: "Machinery", description: "Equipment, capability and the modern jobsite.", image: images.road, href: "/machinery" },
+  { title: "Technology", description: "Ideas changing how projects are designed and delivered.", image: images.tower, href: "/news" },
   { title: "Real Estate", description: "Markets, investment and the future of property.", image: images.interior, href: "/news?category=real-estate" },
 ];
 
 export const navigation = [
-  { label: "News", href: "/news" }, { label: "Projects", href: "/projects" }, { label: "Buildings", href: "/news?category=buildings" }, { label: "Infrastructure", href: "/news?category=infrastructure" }, { label: "Energy", href: "/news?category=energy" }, { label: "Materials", href: "/materials" }, { label: "Machinery", href: "/news?category=machinery" }, { label: "Know-How", href: "/know-how" },
+  { label: "Projects", href: "/projects" }, { label: "News", href: "/news" }, { label: "Buildings & Infrastructure", href: "/buildings-infrastructure" }, { label: "Machinery", href: "/machinery" },
 ];
 
 export const trending = ["Building Code Requirements for Tempered Glass", "Prices of D8 D10 D12 D16 in Kenya", "Road Construction Stages", "What is Fenestration?", "Construction Tools You Need"];

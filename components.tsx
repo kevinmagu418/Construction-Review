@@ -1,8 +1,10 @@
 import Link from "next/link";
 import { articles, categories, projects, trending } from "./data";
 import type { Article, Project } from "./types";
+import { site } from "./site";
+import { BrandLogo } from "./components/BrandLogo";
 
-export function Footer() { return <footer className="footer"><div className="wrap footer-top"><Link href="/" className="brand footer-brand"><span className="brand-mark">CR</span><span className="brand-name">CONSTRUCTION<br/>REVIEW</span></Link><p>Built with structure.<br/>Presented with clarity.</p><div className="footer-links"><Link href="/about">About</Link><Link href="/companies">Companies</Link><Link href="/projects">Projects</Link><Link href="/search">Search</Link></div></div><div className="wrap footer-bottom"><span>© 2026 Construction Review. A static editorial demo.</span><span>Construction intelligence, clearly presented.</span></div></footer>; }
+export function Footer() { return <footer className="footer"><div className="wrap footer-top"><div className="footer-brand-group"><Link href="/" className="footer-brand" aria-label="Atticspace home"><BrandLogo/></Link><p>Built with structure.<br/>Presented with clarity.</p></div><div className="footer-links"><Link href="/about">About</Link><Link href="/companies">Companies</Link><Link href="/projects">Projects</Link><Link href="/search">Search</Link><Link href="/contact">Contact</Link></div><address className="footer-contact"><span className="footer-contact-label">CONTACT</span><strong>{site.name}</strong><span>{site.location}</span><span>{site.postalAddress}</span><a href={`mailto:${site.email}`}>{site.email}</a></address></div><div className="wrap footer-bottom"><span>© 2026 Atticspace. A static editorial demo.</span><span>Architecture, interiors and the built environment.</span></div></footer>; }
 
 export function SectionHeading({ eyebrow, title, link, href }: { eyebrow: string; title: string; link?: string; href?: string }) { return <div className="section-heading"><div><div className="eyebrow">{eyebrow}</div><h2>{title}</h2></div>{link && href && <Link className="text-link" href={href}>{link}<span>↗</span></Link>}</div>; }
 

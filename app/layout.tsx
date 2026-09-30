@@ -17,8 +17,8 @@ const sora = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "Construction Review — Digital Construction Intelligence",
-  description: "Construction intelligence, projects, people and technologies shaping Africa and the world.",
+  title: "ATTICSPACE Architects & Interior Designers | Construction Review",
+  description: "Architecture, interiors and construction intelligence from Atticspace Architects & Interior Designers.",
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {

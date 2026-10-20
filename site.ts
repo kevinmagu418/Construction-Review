@@ -3,16 +3,14 @@ export const site = {
   shortName: "Atticspace",
   description: "Architecture and interior design shaped around people, purpose and place.",
   homepageImage: {
-    src: "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1800&q=85",
-    alt: "Illustrative contemporary interior; not an Atticspace project",
-    placeholder: true,
+    src: "/project-images/RIVERVIEW-16.jpg",
+    alt: "Contemporary residence in Nairobi, Kenya",
   },
-  email: "atticspace@info.co.ke",
+  email: "info@atticspace.co.ke",
   location: "Nanthill Court, Kiambu Town",
   postalAddress: "Box 6937-00100, Nairobi",
   navigation: [
-    { label: "Projects", href: "/projects" }, { label: "Sectors", href: "/sectors" },
-    { label: "Services", href: "/services" }, { label: "Products", href: "/products" },
-    { label: "Studio", href: "/studio" }, { label: "Contact", href: "/contact" },
+    { label: "Home", href: "/" }, { label: "Residential", href: "/residential" }, { label: "Offices", href: "/offices" },
+    { label: "Hotels", href: "/hotels" },
   ],
 };
